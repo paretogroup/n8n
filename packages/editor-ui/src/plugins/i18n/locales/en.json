@@ -1,4 +1,5 @@
 {
+	"_brand.name": "Tess Engine",
 	"_reusableBaseText": {
 		"cancel": "Cancel",
 		"codeNodeEditor": {
@@ -87,11 +88,11 @@
 	"generic.variable": "Variable | {count} Variables",
 	"generic.viewDocs": "View docs",
 	"generic.workflows": "Workflows",
-	"about.aboutN8n": "About n8n",
+	"about.aboutN8n": "About @:_brand.name",
 	"about.close": "Close",
 	"about.license": "License",
 	"about.n8nLicense": "Sustainable Use License + n8n Enterprise License",
-	"about.n8nVersion": "n8n Version",
+	"about.n8nVersion": "@:_brand.name Version",
 	"about.sourceCode": "Source Code",
 	"about.instanceID": "Instance ID",
 	"about.debug.title": "Debug",

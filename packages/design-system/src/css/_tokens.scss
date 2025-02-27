@@ -1,9 +1,16 @@
 @use 'sass:math';
 
 @mixin theme {
-	--color-primary-h: var(--prim-color-primary-h);
-	--color-primary-s: var(--prim-color-primary-s);
-	--color-primary-l: 68%;
+	/* Cores primárias - ajuste conforme o tom exato do roxo da Tess AI */
+	--color-primary-h: 263;  /* Roxo/violeta - ajuste este valor conforme necessário */
+	--color-primary-s: 80%;
+	--color-primary-l: 55%;
+	
+	/* Cores secundárias e de realce, se necessário */
+	/* Estas são apenas sugestões baseadas no esquema de cores visível na landing page */
+	--color-secondary-h: 190; /* Um tom de azul que complementa o roxo */
+	--color-secondary-s: 90%;
+	--color-secondary-l: 50%;
 
 	// Primary tokens
 
